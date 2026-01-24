@@ -1,4 +1,6 @@
-Many Australians struggle to set aside money in their savings account, or do so inefficiently.  For example 2 in 5 Australians (43%) or 9.3 million people have less than $1000 in their bank account, with the average bank balance of this statistic being just $215 which is barely enough to buy groceries. This means that for many Australians replacing their car tyres or going to the dentist would be enough to cause serious financial strain. Common budgeting applications are often not helpful because:
+Many Australians struggle to set aside money in their savings account, or do so inefficiently.  For example 2 in 5 Australians (43%) or 9.3 million people have less than $1000 in their bank account, with the average bank balance of this statistic being just $215 which is barely enough to buy groceries. 
+
+This statistics means that for many Australians replacing their car tyres or going to the dentist would be enough to cause serious financial strain. Common budgeting applications are often not helpful because:
 - People do not develop a habit of using them regularly and long term
 - Applications are not reaching high numbers of the right audience
 - Expensive or to complex. 

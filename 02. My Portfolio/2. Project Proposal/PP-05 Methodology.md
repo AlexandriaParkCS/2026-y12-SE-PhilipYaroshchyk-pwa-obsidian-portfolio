@@ -1,7 +1,10 @@
 ***Development Approach***
 The project will follow an Agile methodology (specifically Kanban), allowing for flexibility, continuous feedback, and iterative improvement. 
 
-Main benefits of Kanban over Scrum here are increased flexibility (to provide less formal and continuous flow of work) and reduced overhead (less meetings and less formal planning approach). Additionally, Kanban better suits small teams that do not have a rigid team structure.
+Main benefits of Kanban over Scrum for the project of this scale are:
+* Greater flexibility with planning and work allocation (to provide less formal and continuous flow of work).
+* Reduced overhead (less meetings and less formal planning approach).
+* Additionally, Kanban often better suits small teams that do not have a rigid team structure.
 
 ***Project Phases***
 The main phases of the project will be:
