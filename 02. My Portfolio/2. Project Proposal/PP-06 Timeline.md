@@ -16,7 +16,7 @@ gantt
     section Week 5
     Dashboard, Goal Setting and Tracking : 2026-02-02, 14d
     section Week 6
-    Suggestions and Hints : 2026-02-09, 14d
+    Analytics : 2026-02-09, 14d
     section Week 7
     PWA Setup, Offline Support : 2026-02-23, 7d
     section Week 8

@@ -7,6 +7,6 @@ This statistics means that for many Australians replacing their car tyres or goi
 
 Budgeting planners are also often ignored by the general public as their services could be expensive, and people don't see the need in them. All these reasons result in Australians leave their savings as an afterthought and fail to save, or quit on their goals.
 
-The **BreakingBank** application addresses the needs of many Australians who to struggle to save money who require an easy to use, efficient and affordable tool to manage their finances. Unlike other existing tools that primarily focus on planning and reporting, **BreakingBank** can suggest to make small meaningful changes to improve spending habits and therefore appeal to audiences that need financial guidance the most. 
+The **BreakingBank** application addresses the needs of many Australians who to struggle to save money who require an easy to use, efficient and affordable tool to manage their finances. Unlike other existing tools that primarily focus on planning and reporting, **BreakingBank** will provide analytics that can help users make small meaningful changes to improve spending habits and therefore appeal to audiences that need financial guidance the most. 
 
 After all, saving just $2 dollars a day will amount to 730 saved in a year.

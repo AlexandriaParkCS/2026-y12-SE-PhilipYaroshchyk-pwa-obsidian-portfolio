@@ -21,5 +21,3 @@ Data Dictionary for attributes of entities in the database schema.
 | amount    | Float     | 4     | Monetary amount. Negative values indicate outflow and positive indicate inflow of funds. | $56.25     |
 | date      | Date      | 4     | The date of the transaction.                                                             | 12/03/2025 |
 | note      | String    | 256   | Free text to describe the transaction.                                                   | New sheos. |
-
-
