@@ -31,11 +31,9 @@ erDiagram
 	    DATE updated
 	    parent_goal_id INTEGER FK
     }
-    users one -- many suggestions: has
     goals one -- many suggestions: has
     suggestions {
 	    INTEGER id PK
-	    INTEGER user_id FK
 	    INTEGER goal_id FK
 	    TEXT message
 	    DATE created
@@ -44,3 +42,12 @@ erDiagram
     
     
 ```
+**Diagram guide:**
+- Each user can have many transactions.
+- Users can have many goals.
+- Each goal can be linked to many other goals
+- Each goal is linked to many suggestions
+
+**Why user transactions and goals are not linked together?**
+- Each transaction can be linked to multiple goals because the goal itself can be linked to other goals
+- While its possible to have another table to link transactions to goals as a one to many relationships, it will not be used here. Instead we want to calculate goal tracking via connecting goals to transactions through the user. This way we can make goals modifiable, for example if the user decides to shorten the goal duration, then there is no need to update the transaction to goal link
