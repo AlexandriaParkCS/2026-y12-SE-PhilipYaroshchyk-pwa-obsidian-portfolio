@@ -25,10 +25,11 @@ erDiagram
 	    INTEGER id PK
 	    INTEGER user_id FK
 	    TEXT goal_name
-	    DATE start_time
-	    DATE end_time
-	    DATE created
-	    DATE updated
+	    FLOAT amount
+	    DATE start_date
+	    DATE end_date
+	    DATE created_date
+	    DATE updated_date
 	    parent_goal_id INTEGER FK
     }
     goals one -- many suggestions: has
