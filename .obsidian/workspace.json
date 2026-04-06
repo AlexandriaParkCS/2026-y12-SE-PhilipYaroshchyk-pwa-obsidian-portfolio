@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Student Guide/3. Application Design/AD-02 Data Flow Diagrams.md",
+                "file": "01. Student Guide/3. Application Design/AD-01 Story Boards.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AD-02 Data Flow Diagrams"
+              "title": "AD-01 Story Boards"
             }
           },
           {
@@ -254,6 +254,7 @@
   },
   "active": "83c5ee9d4bcf41fb",
   "lastOpenFiles": [
+    "01. Student Guide/3. Application Design/AD-02 Data Flow Diagrams.md",
     "01. Student Guide/3. Application Design/AD-03 Structure Chart.md",
     "01. Student Guide/3. Application Design/AD-07 Class Diagrams.md",
     "01. Student Guide/3. Application Design/AD-06 Data Dictionary.md",
@@ -265,7 +266,6 @@
     "02. My Portfolio/3. Application Design/AD-01 Story Boards.md",
     "02. My Portfolio/3. Application Design/AD-02 Data Flow Diagrams.md",
     "02. My Portfolio/2. Project Proposal/PP-01 Executive Summary.md",
-    "01. Student Guide/3. Application Design/AD-02 Data Flow Diagrams.md",
     "01. Student Guide/3. Application Design/AD-04 Input Process Output Charts.md",
     "summary1.drawio.png",
     "transaction.drawio.png",
