@@ -32,22 +32,11 @@ erDiagram
 	    DATE updated_date
 	    parent_goal_id INTEGER FK
     }
-    goals one -- many suggestions: has
-    suggestions {
-	    INTEGER id PK
-	    INTEGER goal_id FK
-	    TEXT message
-	    DATE created
-	    BOOLEAN is_delivered
-    }
-    
-    
 ```
 **Diagram guide:**
 - Each user can have many transactions.
 - Users can have many goals.
 - Each goal can be linked to many other goals
-- Each goal is linked to many suggestions
 
 **Why user transactions and goals are not linked together?**
 - Each transaction can be linked to multiple goals because the goal itself can be linked to other goals

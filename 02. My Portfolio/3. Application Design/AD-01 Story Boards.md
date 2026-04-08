@@ -22,7 +22,6 @@ User can add a new goal by clicking the "Add Goal" menu button at the top of the
 ***Add New Expense or Income Entry 
 
 The user can add a new expense or income entry by clicking the "Add Transaction" menu button at the top of the page. User is required to provide the amount, select the type of the transaction from the following list: 
-
 - Income - all types
 - Groceries
 - Eating out
@@ -40,7 +39,6 @@ The user can add a new expense or income entry by clicking the "Add Transaction"
 - Debt payments
 - Hobbies
 - other necessities
-
 
 ![[transaction.drawio.png]]
 ***Summary Page
