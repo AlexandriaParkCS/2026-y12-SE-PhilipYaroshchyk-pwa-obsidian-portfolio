@@ -22,7 +22,7 @@ BreakingBank -- Dashboards --> User
 BreakingBank -- User Onboarding --> Database
 
 BreakingBank -- Entry Transactions and Goals --> Database
-Database -- Filtered and Aggregated Data used for Dashboards --> BreakingBank
+Database -- Filtered and Aggregated Data for Dashboards & Summaries--> BreakingBank
 ```
 
 ***The Level 1 Data Flow Diagram***
@@ -99,7 +99,7 @@ title: Level 1 Data Flow Diagram (Dashboard and Summmaries Viewing)
 ---
 flowchart
 
-AuthorisedUser
+AuthorisedUser[Authorised User]
 Dashboards
 Summaries
 DashboardGeneration((Analytics<br>Generator))
