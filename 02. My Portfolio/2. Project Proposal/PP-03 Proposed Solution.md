@@ -1,11 +1,10 @@
 **BreakingBank** is proposed to be Progressive Web Application (PWS) written using the Python Flask technology stack. Users of the app will be able to:
 * Securely create new accounts
 * Securely login and log out 
-* Record their income and expenses including tax-deductibles
+* Record their income and expenses
 * Set and adjust financial goals
 * Interactively review summaries of their income and expenses
 * Track the progress of their financial goals
-* Receive hints and suggestions from the application on how to be more successful in achieving their financial goals
 
 ***Key Features*** of **BreakingBank** are:
 - Functional

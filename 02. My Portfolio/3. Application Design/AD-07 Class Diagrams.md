@@ -25,9 +25,9 @@ classDiagram
 
 class User {
 	-int _id
-	-str username
-	-str email
-	-str password_hash
+	-str _username
+	-str _email
+	-str _password_hash
 	
 	+get_id() int
 	+get_username() str
