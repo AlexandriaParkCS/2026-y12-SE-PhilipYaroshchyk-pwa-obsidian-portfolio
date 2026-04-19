@@ -1,1 +1,2 @@
-...
+- BreakingBank code repository: https://github.com/AlexandriaParkCS/2026-y12-SE-PhilipYaroshchyk-pwa-flask-application
+- BreakingBank portfolio repository: https://github.com/AlexandriaParkCS/2026-y12-SE-PhilipYaroshchyk-pwa-obsidian-portfolio

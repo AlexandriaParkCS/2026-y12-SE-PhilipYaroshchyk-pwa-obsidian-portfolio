@@ -10,49 +10,41 @@ Once data is retrieved, the Summary Generation module uses it to create a summar
 
 The summary data is presented to the user in the UI via the "Income and Expenses Over Time" line and the "Expenses by Type" pie chart.
 
-Algorithms: TODO
-Flow chart: TODO
+***Algorithms:***
 
-Algorithms:
+- `get_transaction_summary` is a function used to combine the data that the UI requires to render the goal summary page:
 
-`BEGIN GenerateDashboard`
-	`UserSummary = GetUserData(UserID)`
-	`TransactionSummary = GetTransactions(UserID)`
-	`GoalSummary = GetGoals(UserID)`
-	``
-	`DISPLAY UserSummary`
-	`IF TransactionSummary is empty`
-		`DISPLAY Let's start budgeting!`
-	`ELSE`
-		`DISPLAY TransactionSummary`
-	`ENDIF`
-	`IF GoalSummary is empty`
-		`DISPLAY Let's set some savings goals!`
-	`ELSE`
-		`DISPLAY GoalSummary`
-	`ENDIF`
+`BEGIN get_transaction_summary_for_a_goal(user_id, goal_id)
+	
+	transactions = get_user_transactions_for_goal(user_id, goal_id)
+	goal = get_goal_by_id(user_id, goal_id)
+	aggregations = get_aggretated_user_expenses_for_goal(user_id, goal_id)
+	
+	total_amount = 0
+	FOR tr IN transactions
+		total_amount = total_amount + tr.amount
+	ENDFOR	
+
+	tip = compute_tip(total_amount, goal.amount)`
+	
+	summary = Summary(total_amount, goal, transactions, agggregations, tip)
+	RETURN summary
 `END`
 
-`BEGIN GetTransactions`
-	`TransactionQuery = SELECT Transactions for UserID`
-	`Transactions = RetrieveTransactions(TransactionQuery)`
-	``
-	`CategorisedTransactions = CategoriseTransactions(Transactions)`
-	``
-	`SummaryRow = 0`
-	`FOR Category in CategorisedTransactions`
-		`TRansactionSummary[SummaryRow] = Category`
-		`NEXT CategoryRow`
-			`FOR Transaction in Category`
-				`TransactionSummary[SummaryRow] = Transaction`
-				`NEXT CategoryRow`
-			`ENDFOR`
-	`ENDFOR`
-	``
-	`RETURN TransactionSummary`
+- `get_user_transactions_for_goal` is a function used to fetch user transactions for a corresponding goal
+
+`BEGIN get_user_transactions_for_goal(user_id, goal_id)`
+	`matched_rows = SQL(WHERE user_id, goal_id)
+	`transaction_list = []`
+	`FOR row IN matched_rows`
+		`transaction = map(row)`
+		`APPEND(transaction_list, transaction)`
+	`ENDIF`	
+	`RETURN transaction_list`	
 `END`
 
+***Flow chart for the process that shows summary for a goal*** 
 
+The flow chart below shows the process of rendering the summary page for a user for a given goal. 
 
-![[Categorise Transactions Flow Chart.png]]
-
+![[show_summary.drawio.png]]
