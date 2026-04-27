@@ -2,15 +2,16 @@ Data dictionary that corresponds to the BreakingBad's Entity Relationship Diagra
 
 ***User***
 
-| Attribute     | Data Type | Bytes | Description                               | Example             |
-| ------------- | --------- | ----- | ----------------------------------------- | ------------------- |
-| username      | String    | 256   | Unique user name provided at registration | johnd, John Doe     |
-| email         | String    | 64    | A valid and unique email address          | user@address.com    |
-| password_hash | String    | 128   | bcript hash of a password                 | 5d41402abc4b2a76... |
+| Attribute     | Data Type | Bytes | Description                               | Example              |
+| ------------- | --------- | ----- | ----------------------------------------- | -------------------- |
+| username      | String    | 256   | Unique user name provided at registration | johnd, John Doe      |
+| email         | String    | 64    | A valid and unique email address          | user@address.com     |
+| password_hash | String    | 128   | bcript hash of a password                 | 5d41402abc4b2a761223 |
+| password_salt | String    | 128   | bcript salt of a password                 | 243262243132242e786c |
 
 ***Transaction***
 
-| Attribute        | Data Type | Bytes | Description                                                                                                                                                                                                                                                                                                                                                  | Exaemple      |
+| Attribute        | Data Type | Bytes | Description                                                                                                                                                                                                                                                                                                                                                  | Example       |
 | ---------------- | --------- | ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------- |
 | amount           | Float     | 4     | Transaction amount. Negative values represent expenses and positive indicate income.                                                                                                                                                                                                                                                                         | 10.50         |
 | date             | Date      | 4     | The date of the transaction.                                                                                                                                                                                                                                                                                                                                 | 2025-12-30    |
