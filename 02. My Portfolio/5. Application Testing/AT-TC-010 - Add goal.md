@@ -9,7 +9,11 @@ Verify that a user can can create a goal
 
 **Steps:**
 1. Click on the `Add Goal` menu item
-2. Enter amount, goal name, start and end dates. 
+2. Enter:
+	1. amount: `1000.00`
+	2. goal name: `2026 Savings`
+	3. start date: `2026-01-01`
+	4. end date: `2026-12-31`
 3. Click the "Submit" button.
  
 **Test Data:** 

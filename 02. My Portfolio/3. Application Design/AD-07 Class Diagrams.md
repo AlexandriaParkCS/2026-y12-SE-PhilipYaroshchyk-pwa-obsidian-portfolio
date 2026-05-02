@@ -11,17 +11,10 @@ Aggregation class is used for computed total of expenses for a given goal. Summa
 title: BreakingBank Class Diagram
 ---
 classDiagram
-	Summary --> Transaction
-	Summary --> Aggregation
-	Transaction --> User
-	Goal --> User
-	UserService --> User
-	UserService --> Goal
-	UserService --> Transaction
-	UserService --> Summary
-	UserService --> Aggregation
-
-	
+	Summary "1" *--> "0..n" Transaction
+	Summary "1" *--> "0..n" Aggregation
+	Transaction "0..n" <--* "1" User
+	Goal "0..n" <--* "1" User
 
 class User {
 	int id

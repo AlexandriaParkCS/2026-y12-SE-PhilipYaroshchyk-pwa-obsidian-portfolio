@@ -7,15 +7,16 @@ erDiagram
     users one -- many transactions : has
     users {
         INTEGER id PK
-        TEXT name
+        TEXT username
         TEXT email
         TEXT password_hash
+        TEXT password_salt
     }
     transactions {
         INTEGER id PK
         INTEGER user_id FK
         TEXT transaction_type
-        FLOAT amout
+        INTEGER amout
         TEXT description
         DATE transaction_date
     }
@@ -25,7 +26,7 @@ erDiagram
 	    INTEGER id PK
 	    INTEGER user_id FK
 	    TEXT goal_name
-	    FLOAT amount
+	    INTEGER amount
 	    DATE start_date
 	    DATE end_date
 	    DATE created_date

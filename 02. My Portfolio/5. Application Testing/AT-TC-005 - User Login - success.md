@@ -10,11 +10,13 @@ Verify that a user can login when they provide correct username and password
 
 **Steps:**
 1. Navigate to the login/signup page.
-2. Enter email address, name and password
+2. Enter test data in the login form:
+	1. name: `example`
+	2. password: `P@ss12!$`
 3. Click the "Login" button.
  
 **Test Data:** 
-- User name: example
+- User name: `example
 - Password: `P@ss12!$`
 
 **Expected Result:** 

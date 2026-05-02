@@ -9,7 +9,11 @@ Verify that a user can can add an expense
 
 **Steps:**
 1. Click on the `Add Transaction` menu item
-2. Enter amount, date and description. Select transaction type from the dropdown
+2. Enter:
+	1. amount: `20.50`
+	2. date: `2026-02-03`
+	3. description: `Coles`
+	4. select transaction type `Groceries` from the dropdown: 
 3. Click the "Submit" button.
  
 **Test Data:** 

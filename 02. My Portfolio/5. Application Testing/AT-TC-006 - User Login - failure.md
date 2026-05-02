@@ -10,11 +10,13 @@ Verify that a user cannot login when they provide incorrect credentials
 
 **Steps:**
 1. Navigate to the login/signup page.
-2. Enter email address, name and password
+2. Enter the test data in the login form: 
+	1. name: `example`
+	2. password: `P@ss22!$`
 3. Click the "Login" button.
  
 **Test Data:** 
-- User name: example
+- User name: `example`
 - Password: `P@ss22!$`
 
 **Expected Result:** 

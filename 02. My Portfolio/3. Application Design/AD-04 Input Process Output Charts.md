@@ -2,12 +2,12 @@
 Registration process is a critical component of the application required for the user to access the application. 
 
 *Input*
-	- Username
+	- Username (for example: `testuser` )
 	- Email address
-	- Password (plain text)
+	- Password (plain text, for example: `Pass123@!`)
 *Process*
 	- Sanitise and validate the full name, email address and password
-	- Calculate a password hash
+	- Calculate a password hash using bcrypt library (for example, `Pass123@1` -> `243262243132242e786c6645563668684246317639534375415457396534546a34305559734e56334d54797a6e58516371695751747a6d386175304b`)
 	- Attempt to create the new user entry in the database. 
 	- If provided name or email already exists, reject the signup. Otherwise, create the user entry in the database and initialise a user session
 *Output*
@@ -19,11 +19,11 @@ Registration process is a critical component of the application required for the
 
 ***Existing User Login***
 *Input*
-	- Username
-	- Password (plain text)
+	- Username (for example: `testuser`)
+	- Password (plain text, for example: `Pass123@!`)
 *Process*
 	- Sanitise and validate the name and password
-	- Calculate a password hash
+	- Calculate a password hash using bcrypt library (for example: `Pass123@1` -> `243262243132242e786c6645563668684246317639534375415457396534546a34305559734e56334d54797a6e58516371695751747a6d386175304b`)
 	- Check for an existing user using the username
 	- If user not found, reject the login.
 	- If user exists, compare the stored and calculated password hashes
