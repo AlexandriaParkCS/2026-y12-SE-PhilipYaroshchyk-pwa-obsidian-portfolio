@@ -107,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 394.5
+    "width": 324.5
   },
   "right": {
     "id": "4252a763d1280327",
@@ -230,6 +230,8 @@
   },
   "active": "83c5ee9d4bcf41fb",
   "lastOpenFiles": [
+    "02. My Portfolio/1. Project Journal/PJ-2026-09 1 1 1 1 1 1 1 1 1 1 1 placeholder.md",
+    "02. My Portfolio/5. Application Testing/AT-TR - Test Report Summary.md",
     "02. My Portfolio/5. Application Testing/AT-TC-013 - Load goal summary - no transaction yet.md",
     "02. My Portfolio/5. Application Testing/AT-TC-012 - Load goal summary  - failure when not found for the user.md",
     "02. My Portfolio/5. Application Testing/AT-TC-014 - Privacy policy page loads.md",
@@ -245,13 +247,11 @@
     "02. My Portfolio/5. Application Testing/AT-TC-002 - User Registration - success.md",
     "02. My Portfolio/5. Application Testing/AT-TC-001 - User Registration - failure.md",
     "02. My Portfolio/1. Project Journal/PJ-2026-03-31.md",
-    "02. My Portfolio/1. Project Journal/PJ-2026-09 1 1 1 1 1 1 1 1 1 1 1 placeholder.md",
     "02. My Portfolio/1. Project Journal/PJ-2026-05-02.md",
     "02. My Portfolio/1. Project Journal/PJ-2026-05-01.md",
     "02. My Portfolio/3. Application Design/AD-02 Data Flow Diagrams.md",
     "02. My Portfolio/3. Application Design/AD-05 Entity Relationship Diagrams.md",
     "02. My Portfolio/3. Application Design/AD-04 Input Process Output Charts.md",
-    "02. My Portfolio/5. Application Testing/AT-TR - Test Report Summary.md",
     "02. My Portfolio/3. Application Design/AD-07 Class Diagrams.md",
     "02. My Portfolio/3. Application Design/AD-06 Data Dictionary.md",
     "02. My Portfolio/1. Project Journal/PJ-2026-04-27.md",
